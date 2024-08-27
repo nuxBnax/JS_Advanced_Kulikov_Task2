@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.block {
+  display: flex;
+  padding: 15px 30px;
+  align-items: center;
+}
+.block__product {
+  padding-right: 20px;
+}
+.block__reviewBtn {
+  padding: 5px;
+  background-color: aquamarine;
+  border-radius: 11px;
+  border: 3px solid green;
+}
+.block__reviewBtn:hover {
+  border: 3px solid yellowgreen;
+  cursor: pointer;
+}
+.block__reviewBtn:active {
+  background-color: yellowgreen;
+  color: yellow;
+}
+
+.form {
+  padding-left: 30px;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+.form__text {
+  width: 400px;
+  height: 100px;
+  border-radius: 8px;
+  padding: 4px;
+}
+.form__sendBtn {
+  padding: 5px;
+  background-color: rgb(235, 240, 238);
+  border-radius: 11px;
+  border: 3px solid rgb(101, 103, 101);
+  box-shadow: 0px 10px 8px grey;
+}
+.form__sendBtn:hover {
+  border: 3px solid rgb(183, 181, 181);
+  cursor: pointer;
+}
+.form__sendBtn:active {
+  background-color: rgb(78, 75, 75);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 8px grey;
+  border: 3px solid rgb(78, 75, 75);
+}
+
+.postedText {
+  margin-top: 7px;
+  margin-left: 60px;
+  max-width: 400px;
+  padding: 5px;
+  border: 3px solid green;
+  border-radius: 7px;
+}
+
+.d-none {
+  display: none;
+}
+
+.line {
+  margin: 15px 20px;
+  height: 1px;
+  background-color: gray;
+  box-shadow: 10px 5px 5px green;
+}/*# sourceMappingURL=style.css.map */
